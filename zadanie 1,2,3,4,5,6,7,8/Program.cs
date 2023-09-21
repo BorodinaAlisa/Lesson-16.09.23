@@ -36,10 +36,7 @@ namespace zadanie_1_2_3_4_5_6_7_8
             Console.WriteLine("double\t\t" + double.MaxValue + "\t\t" + double.MinValue);
             Console.WriteLine("decimal\t\t" + decimal.MaxValue + "\t" + decimal.MinValue);
             Console.WriteLine("char\t\t" + char.MaxValue + "\t\t\t" + char.MinValue);
-            Console.WriteLine("bool\t\t" + bool.TrueString + "\t\t\t" + bool.FalseString);
-            //Console.WriteLine("string\t\t" + string.MaxWords + "\t\t\t" + string.countMin);
-            //Console.WriteLine("object\t\t" + object.MaxValue + "\t\t\t" + object.MinValue);
-           // Console.WriteLine("dynamic\t\t" + dynamic.MaxValue + "\t\t\t" + dynamic.MinValue);
+            Console.WriteLine("bool\t\t" + bool.TrueString + "\t\t\t" + bool.FalseString) 
             Console.WriteLine("Задание 2.Написать программу, в которой принимаются данные пользователя в виде имени,города, возраста и PIN-кода.");
             Console.WriteLine("Введите Ваше имя:");
             string name = Console.ReadLine();
